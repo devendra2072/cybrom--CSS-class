@@ -1,0 +1,12 @@
+.parent{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.ch{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    border: 2px solid;
+    border-radius: 20px;
+} 

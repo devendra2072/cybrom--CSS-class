@@ -1,0 +1,42 @@
+.head{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes slide{
+  /*  to{
+        left:500px;
+        top:0px
+    }
+    from{
+        left:0;
+        top:0;
+    }*/
+
+    0%{
+        top: 0;
+        left: 0;
+    }
+    50%{
+        top: 0;
+        left: 500px;
+    }
+    60%{
+        top: 500px;
+        left: 500px;
+    }
+    80%{
+        left: 0;
+        top: 500px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}

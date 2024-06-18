@@ -1,0 +1,18 @@
+.icon{
+    font-size: 100px;
+}
+.container{
+    display: flex;
+}
+.cj1{
+    color: blue;
+}
+.cj2{
+    color: crimson;
+}
+.cj3{
+    color: navy;
+}
+.cj4{
+    color: tomato;
+}

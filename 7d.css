@@ -1,0 +1,12 @@
+.main{
+    background-image: url(sc.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-color: aqua;
+}
+
+.main1{
+    background-image: url(sc.png);
+    height: 100vh;
+    background-size: cover;
+}

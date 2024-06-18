@@ -1,0 +1,23 @@
+body{
+    background-color: red;
+}
+
+/*@media screen and (max-width: 450px) {
+    body{
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    body{
+        background-color: black;
+    }
+}*/
+
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+    body{
+        background-color: aqua;
+    }
+}
+

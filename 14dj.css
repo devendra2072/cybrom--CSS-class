@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.navbar label {
+    display: none;
+}
+.head ul{
+    display: none;
+}
+.navbar label i {
+    color: black;
+}
+
+#demo:checked~.head ul{
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar{
+        height: 100px;
+    }
+    .navbar label {
+        display: block;
+    }
+    .navbar ul{
+        display: none;
+        margin-top: 250px;
+    }
+}
