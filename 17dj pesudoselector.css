@@ -1,0 +1,44 @@
+button:hover{
+    background-color: red;
+    color: yellow;
+    padding: 50px;
+    border: none;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+    padding: 10px 30px;
+}
+
+ul li{
+    text-decoration: none;
+    
+    text-transform: uppercase;
+    position: relative;
+}
+ul li::after {
+    color: yellow;
+    content: "";
+    background-color:aqua;
+    width: 0;
+    left: 0;
+    height: 4px;
+    position: absolute;
+    bottom: -10px;
+}
+
+ul li:hover::after {
+    color: yellow;
+    font-size: 50px;
+    width: 100%;
+    transition: .5s;
+}

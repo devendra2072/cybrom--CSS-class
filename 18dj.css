@@ -1,0 +1,22 @@
+p:nth-child(odd){
+    background-color: black;
+}
+input::placeholder{
+    color: red;
+}
+
+
+.para::first-line{
+    background-color: yellow;
+    font-size: 30px;
+}
+
+.para1::first-letter{
+    color: red;
+    font-size: 50px;
+}
+
+.head::selection{
+    background-color: purple;
+    color: red;
+}

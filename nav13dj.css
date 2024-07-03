@@ -14,26 +14,30 @@
 .navbar label {
     display: none;
 }
-    #demo{
-        display: none;
-    }
+
+#demo {
+    display: none;
+}
+
 .navbar label i {
     color: red;
 }
 
-#demo:checked~.navbar ul{
+#demo:checked~.navbar ul {
     display: block;
     background-color: aqua;
 }
 
 @media screen and (max-width: 600px) {
-    .navbar{
+    .navbar {
         height: 90px;
     }
+
     .navbar label {
         display: block;
     }
-    .navbar ul{
+
+    .navbar ul {
         display: none;
         margin-top: 170px;
         margin-left: 200px;
