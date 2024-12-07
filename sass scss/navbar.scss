@@ -1,0 +1,15 @@
+$fontsize: 50px;
+.navbar{
+  background-color: lightcyan;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  li {
+    color: red;
+    font-weight: bold;
+    font-size: $fontsize;
+  }
+}

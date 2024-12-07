@@ -1,0 +1,23 @@
+.head {
+  font-size: 50px;
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  font-family: "Courier New";
+}
+
+.para {
+  font-size: 50px;
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  font-family: "Courier New";
+}
+
+ul {
+  font-size: 50px;
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  font-family: "Courier New";
+}/*# sourceMappingURL=mixin.css.map */

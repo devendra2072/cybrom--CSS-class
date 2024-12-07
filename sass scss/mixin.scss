@@ -1,0 +1,17 @@
+@mixin demo{
+    font-size: 50px;
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    font-family: 'Courier New';
+}
+
+.head{
+    @include demo;
+}
+.para{
+    @include demo;  
+}
+ul{
+    @include demo;
+}

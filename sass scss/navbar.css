@@ -1,0 +1,13 @@
+.navbar {
+  background-color: lightcyan;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.navbar li {
+  color: red;
+  font-weight: bold;
+  font-size: 50px;
+}/*# sourceMappingURL=navbar.css.map */
